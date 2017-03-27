@@ -181,7 +181,9 @@ total = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10 + n11 + n12 + n13 + n14
 
 Serial.println (total);
 
-if (total == 10,20,30,40,50,60,70,80,90)
+total = total % 10;
+
+if (total == 0)
 {
   Serial.println("SI");
 }
